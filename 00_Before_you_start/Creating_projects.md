@@ -1,11 +1,11 @@
 # Creating Projects
 
+**Note:** It's not compulsory to install the SDK to create projects, but you'll need it for atuomation and autonomy.
+
 Once you've created an account you can create a project in GCP.
 
 A project will include every GCP component you will use. You can create different projects that can interact with each other.
 This is recommended, since different kinds of projects will have different processing and storage needs. Your task will be to identify this specific needs to tune up each project.
-
-It's not compulsory to install the SDK to create projects, but you'll need it for atuomation and autonomy.
 
 ## Create a new project
 

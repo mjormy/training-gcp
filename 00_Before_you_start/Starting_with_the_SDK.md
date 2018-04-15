@@ -1,21 +1,33 @@
-##Download the SDK##
+## Download the SDK
 
 You can either download the tar.gz file from
 https://cloud.google.com/sdk/downloads
 
 Or
 
-1. Run `curl`
+* Run `curl`
 ```
 curl https://sdk.cloud.google.com | bash
 exec -l $SHELL
 ```
-2. Run `apt-get` o `yum`
+* Run `apt-get` o `yum`
 
 **Note:** This options don't include `kubectl` and deploy commands. You can install them individually.
 
-##Init the sdk##
+## Init the sdk
+
+By running 
+```
+./google-cloud-sdk/bin/gcloud init
+```
+
+You'll be re-directed to a web browser to log in with your credentials.
+
+You can also run
 
 ```
-git init
+./google-cloud-sdk/bin/gcloud init --console-only
 ```
+
+You can choose to use an existing project or create a new one.
+**Note:** You have to activate it por each project.

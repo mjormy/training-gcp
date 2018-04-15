@@ -8,6 +8,7 @@ Wait for the API and related services to be enabled.
 
 ### On the built in console
 
+To follow this guide on the built-in console, you'll have the `gcloud` already running
 
 ### On your machine
 
@@ -29,4 +30,13 @@ You can find it in https://docs.docker.com/install/#supported-platforms
 
 5. git 
 
-To configure your git acount you refer to https://help.github.com/articles/set-up-git/
+To configure your git acount you refer to https://help.github.com/articles/set-up-git33/
+
+### Setting up your defaults
+
+You should set the defaults for the project, so that you don't have to configure that in every component
+
+```
+gcloud config set project [PROJECT_ID]
+gcloud config set compute/zone [YOUR_PREFERED_ZONE]
+```

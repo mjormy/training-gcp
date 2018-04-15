@@ -11,8 +11,8 @@ Google Cloud starter tutorials. Some of this are a merge of the ones you can fin
 
 ## Deploying a containerized app to Kubernetes
 
-- Requirements
+- Requirements for this tutorial
+- Building your Docker image locally
 
 ## Running your own ML models in a cluster
-
 

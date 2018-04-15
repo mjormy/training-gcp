@@ -1,3 +1,5 @@
+# Creating your GCP account
+
 To start with GCP, the first thing to do is to create an account. 
 1. Sign in to your Google Account
 2. Go to https://cloud.google.com/

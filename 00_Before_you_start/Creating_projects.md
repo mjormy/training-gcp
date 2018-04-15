@@ -15,14 +15,15 @@ Go to the project list, you'll have a list of your current projects and an optio
 
 2. Via POST
 ```
-curl 'https://cloudresourcemanager.googleapis.com/v1/projects' \
+curl 'https://cloudresourcemanager.googleapis.com/v1/projects?key=[YOUR_API_KEY]' \
   -X POST \
-  -H 'Authorization: Bearer [YOUR_BEARER_TOKEN]' \
   -H 'Accept: application/json' \
   -H 'Content-Type: application/json' \
-  --data-binary '{"name":"ormy-test-create-project","projectId":"ormy-test-create-project"}' \
+  --data-binary '{"name":"my-first-project"}' \
   --compressed
 ```
  3. From your code
 
- Reference: https://cloud.google.com/resource-manager/reference/rest/v1/projects/create
+Reference: 
+- Method: projects.create
+https://cloud.google.com/resource-manager/reference/rest/v1/projects/create

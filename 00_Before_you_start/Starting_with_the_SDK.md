@@ -29,7 +29,9 @@ You can also run
 ./google-cloud-sdk/bin/gcloud init --console-only
 ```
 
-## Activating the sdk for a certain project
+## Configuring the SDK
+
+### Activating the sdk for a certain project
 
 When runing `gcloud init`, you can choose to use an existing project or create a new one.
 
@@ -43,16 +45,16 @@ To set (or reset) the project on your configuration you run
 
 **Note:** You have to activate it por each project you want to use the SDK with.
 
-## Establishing default compute zone
+### Establishing default compute zone
 
 ```gcloud config set compute/zone us-east1-c```
 
-## Adding a new configuration
+### Adding a new configuration
 
 To add a new configuration, run
 ```gcloud config configurations create my-new-config```
 
-## Other resources
+### Other resources
 
 On multiple configurations
 https://www.the-swamp.info/blog/configuring-gcloud-multiple-projects/

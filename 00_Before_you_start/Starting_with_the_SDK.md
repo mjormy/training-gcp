@@ -1,5 +1,7 @@
 # Starting with the SDK
 
+**Note:** It's not compulsory to install the SDK to create projects, but you'll need it for atuomation and autonomy.
+
 ## Download the SDK
 
 You can either download and decompress the tar.gz file from

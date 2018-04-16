@@ -8,4 +8,15 @@ The kubectl run command below causes Kubernetes to create a Deployment named hel
 
 By default, the containers you run on Kubernetes Engine are not accessible from the Internet, because they do not have external IP addresses. You must explicitly expose your application to traffic from the Internet, run the following command:
 
-```kubectl expose deployment hello-web --type=LoadBalancer --port 80 --target-port 8080``
+```kubectl expose deployment hello-web --type=LoadBalancer --port 80 --target-port 8080```
+
+### Scaling 
+
+```kubectl scale deployment hello-web --replicas=3```
+
+```kubectl get deployment hello-web```
+
+### Deploy a new version
+
+```docker build -t gcr.io/${PROJECT_ID}/hello-app:v2 ```
+```kubectl set image deployment/hello-web hello-web=gcr.io/${PROJECT_ID}/hello-app:v2``

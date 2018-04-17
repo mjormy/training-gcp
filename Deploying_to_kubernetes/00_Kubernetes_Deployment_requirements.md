@@ -41,6 +41,6 @@ gcloud config set project [PROJECT_ID]
 gcloud config set compute/zone [YOUR_PREFERED_ZONE]
 ```
 
-To find the list of available zones you can run
+To find the list of available zones and their status you can run
 
-``````
+```gcloud compute zones list```

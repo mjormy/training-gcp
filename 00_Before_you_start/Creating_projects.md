@@ -1,6 +1,6 @@
 # Creating Projects
 
-**Note:** It's not compulsory to install the SDK to create projects, but you'll need it for atuomation and autonomy.
+**Note:** It's not compulsory to install the SDK to create projects. You'll need it if you want to interact with GCP from your local machine.
 
 Once you've created an account you can create a project in GCP.
 

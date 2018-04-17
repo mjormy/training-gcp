@@ -1,7 +1,7 @@
 # Building the Docker image locally
 
-
 ### Configuring your project env variable
+
 First, set the PROJECT_ID env variable to get your current gcloud project, which will be used to tag the container image for pushing it to your private Container Registry.
 
 ```export PROJECT_ID="$(gcloud config get-value project -q)"```

@@ -27,7 +27,7 @@ By running
 
 You'll be re-directed to a web browser to log in with your credentials.
 
-You can also run
+You can also do a console-only init
 
 ```
 ./google-cloud-sdk/bin/gcloud init --console-only

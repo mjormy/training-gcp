@@ -10,7 +10,7 @@ First, set the PROJECT_ID env variable to get your current gcloud project, which
 
 Now we're gonna build a docker image of your application. For that, Docker has to be running.
 
-```docker build -t gcr.io/${PROJECT_ID}/my-app:v1 .```
+```docker build -t gcr.io/${PROJECT_ID}/hello-app:v1 .```
 
 `gcr.io` Refers to the Google Container Registry
 `{PROJECT_ID}`is the value we just stored

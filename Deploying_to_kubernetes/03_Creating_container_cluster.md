@@ -8,7 +8,7 @@ You can see the list of instances running
 
 ```gcloud compute instances list```
 
-You can check it in the console https://console.cloud.google.com/kubernetes/list?project=ormy-deploy-kub
+You can check it in the console https://console.cloud.google.com/kubernetes/list?project={YOUR-PROJECT}
 
 **Note:** If you already created your cluster on the console, you'll need to get credentials to  manage the cluster from your local machine.
 

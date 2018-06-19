@@ -1,5 +1,12 @@
 # Building the Docker image locally
 
+## Sample web app
+
+There are lots of examples available for you in this repo. We're using a very simple web app in this tutorial.
+
+```git clone https://github.com/GoogleCloudPlatform/kubernetes-engine-samples```
+```cd kubernetes-engine-samples/hello-app```
+
 ### Configuring your project env variable
 
 First, set the PROJECT_ID env variable to get your current gcloud project, which will be used to tag the container image for pushing it to your private Container Registry.

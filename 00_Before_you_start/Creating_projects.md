@@ -29,7 +29,7 @@ curl 'https://cloudresourcemanager.googleapis.com/v1/projects?key=[YOUR_API_KEY]
   --data-binary '{"name":"my-first-project"}' \
   --compressed
 ```
- 3. From your code
+3. From your code
 
 Reference: 
 - Method: projects.create

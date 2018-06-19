@@ -4,9 +4,9 @@
 
 ```gcloud auth configure-docker```
 
-```docker push [HOSTNAME]/[PROJECT-ID]/[IMAGE][:TAG]
+```docker push [HOSTNAME]/[PROJECT-ID]/[IMAGE][:TAG]```
 
-docker push gcr.io/${PROJECT_ID}/hello-app:v1```
+```docker push gcr.io/${PROJECT_ID}/hello-app:v1```
 
 After that you can check you image running this command
 
